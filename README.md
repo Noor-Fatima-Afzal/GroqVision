@@ -6,7 +6,7 @@ A sleek, interactive Streamlit application that lets you:
 2. **Extract all readable text** via Groq’s vision-capable LLM, rendered as structured Markdown  
 3. **Download** the raw Markdown transcript of your OCR results  
 
-<img src="OCR.png" alt="App Screenshot" width="800"/>
+<img src="OCR.jpg" alt="App Screenshot" width="800"/>
 
 ---
 
