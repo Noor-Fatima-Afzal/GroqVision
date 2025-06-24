@@ -36,7 +36,7 @@ h1 { color: #1f2937; text-align: center; font-size: 2.5rem; margin-bottom: 0.2em
 # ——————————————————————————————————————————————————————————————————————————
 # 2. Secrets & Sidebar
 # ——————————————————————————————————————————————————————————————————————————
-GROQ_API_KEY = "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"
+GROQ_API_KEY = st.secrets["API_TOKEN"]
 if not GROQ_API_KEY:
     st.error("⚠️ Please set your `API_TOKEN` as an environment variable.")
     st.stop()
